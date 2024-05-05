@@ -3,7 +3,7 @@
 ## Overview
 Deployed version with Github Page:
 <br>
-
+https://weix0015.github.io/GuessAnimal/
 
 <br><br>
 Installerer Repository lokalt for at skifte tree.json ud med den nye udgave, 
