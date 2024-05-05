@@ -1,0 +1,64 @@
+{
+  "question": "Is it a mammal?",
+  "yes": {
+    "parent": null,
+    "question": "Does it have stripes?",
+    "yes": {
+      "parent": null,
+      "question": "Is it a zebra?",
+      "yes": null,
+      "no": null
+    },
+    "no": {
+      "parent": null,
+      "question": "Does it have a trunk?",
+      "yes": {
+        "parent": null,
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "parent": null,
+        "question": "Does it have hooves?",
+        "yes": {
+          "parent": null,
+          "question": "Is it a horse?",
+          "yes": null,
+          "no": null
+        },
+        "no": {
+          "parent": null,
+          "question": "Is it a lion?",
+          "yes": null,
+          "no": null
+        }
+      }
+    }
+  },
+  "no": {
+    "parent": null,
+    "question": "Does it fly?",
+    "yes": {
+      "parent": null,
+      "question": "Is it a eagle?",
+      "yes": null,
+      "no": null
+    },
+    "no": {
+      "parent": null,
+      "question": "Does it have scales?",
+      "yes": {
+        "parent": null,
+        "question": "Is it a fish?",
+        "yes": null,
+        "no": null
+      },
+      "no": {
+        "parent": null,
+        "question": "Is it a snake?",
+        "yes": null,
+        "no": null
+      }
+    }
+  }
+}
