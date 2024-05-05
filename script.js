@@ -58,7 +58,6 @@ function saveJSONFile(data) {
   const blob = new Blob([json], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   
-  // Create a link element and click it to trigger the download
   const link = document.createElement("a");
   link.href = url;
   link.download = "tree.json";
